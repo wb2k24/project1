@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+box-sizing: border-box;
+}
+body{
+	background: url("newfoodpic.jpg") no-repeat fixed top right; 
+	 
+}
+#container{
+	width: 800px;
+	margin:0 auto;
+	
+}
+.left{
+	width:380px;
+	height:200px;
+	background-color:rgba(240,232,232,1.00);
+	border-radius: 25px;
+	float:left;
+	margin:0px 10px 10px 15px;
+	padding: 30px 10px 30px 10px;
+	border: solid 10px rgba(189,44,46,1.00);
+	visibility: hidden;
+	
+}
+.right{
+	width:380px;
+	height:200px;
+	background-color:rgba(240,232,232,1.0);
+	border-radius: 25px;
+	float:left;
+	padding: 30px 30px 30px 30px;
+	border: solid  10px rgba(33,188,48,1.00); 
+}
+footer{
+	background-color:rgba(239,234,234,1.00);
+	clear: both;
+	text-align:center;
+	
+	
+}
+header > h1{
+	text-align: center;
+	color:rgba(0,0,0,1.00);
+	background-color:rgba(233,30,33,.7);
+	border-radius: 5px;
+	}
+
+nav{
+	background-color:rgba(62,200,22,0.60)
+}
+
+h2{
+	text-align: center;
+}
+
+#guerilla {
+  font-family: "Protest Guerrilla", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+header > h1 {
+	
+font-family: "Playwrite CU", cursive;
+  font-optical-sizing: auto;
+   font-style: normal
+}
+
+
+
+
