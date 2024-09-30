@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+#div1 {
+	background: rgba(234,22,26,1.00);
+	padding:40px;
+	width:300px
+	
+}
+
+ #chinese {
+	background: rgba(230,9,12,1.00);
+	color:rgba(18,14,203,1.00);
+	
+	 
+	}
+
+#chinese li{
+	
+}

@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+margin:auto;
+background: rgba(208,22,25,1.00)
+
+
+}
+header{
+	border: solid;
+	width:600px;
+	background-color:rgba(20,17,17,1.00);
+	border-radius: 50px;
+	
+	}
+
+header h1{
+	color:rgba(54,193,20,1.00);
+	background-color:rgba(180,3,5,1.00);
+	background-radius:10px;	
+		}
+#div1{
+	
+	box-sizing: border-box;
+	width:auto;
+	background:rgba(54,193,20,1.00);
+	padding:10px;
+	float: left;
+	border-radius:20px;	
+	margin-top: 150px
+}
+
+#chinese li{
+	list-style-type:circle;
+	color:rgba(96,0,222,1.00);
+	font-size: 20px;
+	
+}
+
+#div2{
+	box-sizing: border-box;
+	background: rgba(54,193,20,1.00);
+	padding:10px;
+	float: left;
+	border-radius:20px;
+	margin-left:20px;
+	margin-top: 150px;
+	
+	
+	}
+#mexican li{
+	list-style-type:circle;
+	color:rgba(96,0,222,1.00);
+	font-size: 20px;
+	
+}
+
+#div3{
+	box-sizing: border-box;
+	width:200px;
+	background: rgba(54,193,20,1.00);
+	padding:10px;
+	float:left;
+	border-radius:20px;
+	margin-left: 20px;
+	margin-top:	150px
+}
+#div4{
+	
+	box-sizing: border-box;
+	width:auto;
+	background:rgba(54,193,20,1.00);
+	padding:10px;
+	float: left;
+	border-radius:20px;	
+	margin-top: 150px;
+	margin-left:20px
+}
+#american li{
+	
+	list-style-type:circle;
+	color:rgba(96,0,222,1.00);
+	font-size: 20px;
+}
+#vegan li{
+	
+	list-style-type:circle;
+	color:rgba(96,0,222,1.00);
+	font-size: 20px;
+}
+#video{
+	width:20px;
+	margin-top:500px;
+	margin-left: 20px
+}
+#foodtest{
+	float:left;
+	width:400px;
+	height:150px;
+	margin-bottom: 50px;
+	margin-top:10px;
+	box-sizing: border-box;
+	border:solid;
+	background-color:rgba(54,193,20,1.00);
+		
+	
+}
