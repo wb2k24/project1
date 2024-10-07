@@ -9,28 +9,29 @@ body{
 
 #container{
 	width: 800px;
-	height: 600px;
+	height: 1000px;
 	margin:0 auto;
 	
 }
 .left{
 	width:380px;
-	height:200px;
+	height:300px;
 	background-color:rgba(240,232,232,1.00);
 	border-radius: 25px;
 	float:left;
 	margin:0px 10px 10px 15px;
 	padding: 10px 10px 30px 10px;
 	border: solid 10px rgba(189,44,46,1.00);
-	
+	display: flex;
+    justify-content: center;
 	
 }
 .right{
 	width:380px;
-	height:200px;
-	background-color:rgba(240,232,232,1.0);
+	height:300px;
+	background-color:rgba(233,0,3,.5);
 	border-radius: 25px;
-	float:left;
+	float:right;
 	padding: 30px 30px 30px 30px;
 	border: solid  10px rgba(189,44,46,1.00); 
 }
@@ -59,9 +60,34 @@ header > h1{
 }
 
 nav{
-	background-color:rgba(62,200,22,0.60)
+	background-color:rgba(62,200,22,0.60);
+	border:solid;	
 }
 
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+	overflow:hidden;
+	background-color: rgba(179,11,14,.5)
+	
+}
+
+nav ul li{
+	float:right;
+	text-align: center;
+	
+}
+nav ul li a{
+	
+	display:block;
+	padding:15px;
+	
+}
+nav ul li a:hover{
+	
+	background-color: #111;
+}
 h2{
 	text-align: center;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
@@ -125,6 +151,46 @@ button{
 	margin: 20px 0px 0px 15px;
 }
 
+#formsec{
+	
+	border:solid;
+	margin-top: 350px;
+	height:550px;
+	background-color: rgba(232,100,102,1.00); 
+	padding-top: 50px;
+	
+	
+}
+#formsec h2{text-align: center;
+			font-style: italic;
+			
+}
 
+form{ margin-top:50px}
+
+#formsec h3{
+	
+	margin:0 auto;
+	text-align: center
+	
+}
+
+.left img{
+	width:300px;
+	height:260px;
+	margin-left:20px	
+}
+#container12{
+	
+	margin:200px;
+}
+#submitform{
+	
+	margin-left:350px
+}
+svg{
+	margin:0 px;
+	margtin-top:10px;
+}
 
 
