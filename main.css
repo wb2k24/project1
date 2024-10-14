@@ -3,8 +3,11 @@
 *{
 box-sizing: border-box;
 }
+header{
+	background: rgba(193,5,8,.5);
+}
 body{
-	background-color: rgba(54,193,20,1.00)
+	background-image: url("pictures/steamrising.png");
 }
 
 #container{
@@ -22,10 +25,13 @@ body{
 	margin:0px 10px 10px 15px;
 	padding: 10px 10px 30px 10px;
 	border: solid 10px rgba(189,44,46,1.00);
-	display: flex;
-    justify-content: center;
-	
+	display:flex;
+	}
+.left a img{
+padding: 50px
+
 }
+
 .right{
 	width:380px;
 	height:300px;
@@ -34,6 +40,11 @@ body{
 	float:right;
 	padding: 30px 30px 30px 30px;
 	border: solid  10px rgba(189,44,46,1.00); 
+}
+.linkbox{
+	height: 150px
+}
+#linky{
 }
 
 .anton-regular {
@@ -91,19 +102,21 @@ nav ul li a:hover{
 h2{
 	text-align: center;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
-	font-size: 40px
+	font-size: 40px;
+	color: rgba(202,0,3,1.00);
+		
 }
 
 a {
 	padding:0px 40px 10px 20px;
+	color:#FFFFFF;
 }
-
 header{
 	
     border-style: outset ;
 	border-radius: 10px;
 	border-color: rgba(237,15,18,1.00);
-	background-color:rgba(0,0,0,.3)
+	background-color:rgba(237,15,18,1.00);
 	}
 
 
@@ -175,22 +188,16 @@ form{ margin-top:50px}
 	
 }
 
-.left img{
-	width:300px;
-	height:260px;
-	margin-left:20px	
-}
+
 #container12{
 	
 	margin:200px;
+	background: #F2EEEE
 }
 #submitform{
 	
 	margin-left:350px
 }
-svg{
-	margin:0 px;
-	margtin-top:10px;
-}
+
 
 

@@ -1,0 +1,151 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+box-sizing: border-box;
+	
+}
+
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 20px;
+	background-color:rgba(193,5,8,.5);
+	
+	
+	}
+
+.navlinks{
+	display: flex;
+	list-style: none;
+	
+	
+	}
+.navlinks li{
+	margin:0 40px;
+	}
+.navlinks a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 15px;
+	background-color:rgba(202,0,3,1.00);
+	padding:5px 10px
+}
+body{
+	
+	background-image: url("pictures/steamrising.png");
+	
+}
+.container{
+	width:1000px;
+	margin:auto;
+}
+.flex-container1{
+    display: flex;
+    flex-wrap: wrap;
+	justify-content: space-around;
+	height: 500px;
+		
+	}
+
+
+.leftsec{
+	display:flex;
+	background-color:#FFFFFF
+	
+	
+}
+.leftsec img{
+	width:400px;
+	height: 500px
+}
+a:link {
+  color:#000000;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color:#FFFDFD;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #AB0609;
+  background-color: transparent;
+  
+}
+.rightsec {
+    background-color:rgba(193,5,8,.5);
+	border:solid;
+	border-color: aqua;
+	justify-content: space-between;
+	flex-direction: column
+	
+}
+.linkdiv{
+	
+	
+	border: solid;
+	border:#00F171;
+	
+}
+.link1{
+	margin-top: 50px
+}
+.link2{
+	margin-top: 60px
+}
+
+
+.youtube{
+	
+	margin-top: 100px;
+	
+}
+	
+.flex-container2{
+	display: flex;	
+	font-size: 15px;
+	background-color:#FFFFFF;
+	margin-top: 20px;
+
+
+	
+}
+.yeseva-one-regular {
+  font-family: "Yeseva One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+article{
+	
+}
+
+
+
+.foot{
+	display: flex;
+	
+	
+	height: 50px;
+	align-items: center;
+	justify-content: center;
+	background: rgba(193,5,8,.5);
+	}
+#copyright {
+	align-self: center;
+	margin: 0;
+	color:#000000
+
+	
+}
+
+
