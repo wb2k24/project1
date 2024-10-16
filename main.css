@@ -7,7 +7,7 @@ header{
 	background: rgba(193,5,8,.5);
 }
 body{
-	background-image: url("pictures/steamrising.png");
+	background-image:url("pictures/steamrising.png")
 }
 
 #container{
@@ -17,6 +17,7 @@ body{
 	
 }
 .left{
+	justify-content: center;
 	width:380px;
 	height:300px;
 	background-color:rgba(240,232,232,1.00);
@@ -25,12 +26,13 @@ body{
 	margin:0px 10px 10px 15px;
 	padding: 10px 10px 30px 10px;
 	border: solid 10px rgba(189,44,46,1.00);
-	display:flex;
+	
 	}
-.left a img{
-padding: 50px
-
+img {
+	width: 300px;
+	height:250px;
 }
+
 
 .right{
 	width:380px;
